@@ -14,7 +14,7 @@ class SeleniumHelper():
         # configure webdriver
         chrome_options = Options()
         chrome_options.add_experimental_option("detach", True)
-        self.driver = driver = webdriver.Chrome(ChromeDriverManager().install())
+        self.driver = webdriver.Chrome(ChromeDriverManager().install())
         pass
     
     def openWebPage(self, url):
